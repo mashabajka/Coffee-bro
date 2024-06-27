@@ -1,0 +1,60 @@
+.wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+}
+
+.color {
+    background-color: lightblue;
+}
+
+.logBtn{
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    right: 50px;
+    border-radius: 15px;
+}
+
+.homeBtn{
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    right: 150px;
+    border-radius: 15px;
+}
+
+.welcome{
+    color: black;
+    position: absolute;
+    left: 50px;
+    top: 15px;
+    font-size:large;
+    font-weight: 500;
+}
+
+.errMsg{
+    color: black;
+}
+
+.modal{
+    border-radius: 25px;
+    top: 50px;
+    left: 40%;
+    right: 40%;
+   
+
+}
+
+.btnClose{
+    width: 30px;
+    height: 30px;
+    background-size:cover;
+    background-image: url('../../../public/btn_close.png');
+    border: none;
+    position: absolute;
+    right: 25px;
+    top: 1px;
+}

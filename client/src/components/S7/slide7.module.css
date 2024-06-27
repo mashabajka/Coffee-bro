@@ -1,0 +1,183 @@
+
+
+.wrapper_content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+}
+
+.h{
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    margin-right: 250px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align:left;
+
+  }
+
+  .h2{
+    /* margin-left: 50px; */
+    /* height: 200px; */
+    font-size: 30px;
+    font-weight: 700;
+    /* margin-bottom: 50px; */
+    color: #272727;
+    text-align:left;
+    /* width: 1000px; */
+    /* text-transform: uppercase; */
+  }
+
+  .hah{
+    display: flex;
+    align-items:flex-start;
+    padding: 10px;
+    /* margin-top: 60px;
+    margin-bottom: 80px; */
+    /* justify-content: space-between; */
+
+  }
+
+
+  .text{
+    margin: 10px;
+    /* text-transform: uppercase; */
+    text-align: left;
+    font-size: 20px;
+    width: 90%;
+    margin-left: 20px;
+    font-weight: 600;
+    color: #504036;
+
+  }
+
+
+  
+.divContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: stretch;
+    position: relative;
+   /* margin-top: 15px; */
+
+  }
+
+ .line{
+  position: absolute;
+  width: 400px;
+  height: 520px;
+  left: 520px;
+  top: 60px;
+ 
+  
+ }
+
+  .div {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 30px;
+    
+  
+  }
+
+.card{
+  margin-left: 70px;
+}
+
+  .card1{
+    margin-left: 110px;
+  }
+  .card2{
+    margin-right: 160px;
+  }
+
+
+
+  .card, .card1, .card2{
+
+    width: 500px;
+    height: 180px;
+    background-color: #F3F1E9;
+    border-radius: 10px;
+    border: 3px solid #bb7e0df7;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px -2px 5px 0px rgba(0, 0, 0, 0.5);
+
+
+  }
+
+
+  .img{
+   
+    width: 100px;
+    height: 98px;
+    margin-left: 20px;
+  }
+
+  .img1{
+   
+    width: 125px;
+    height: 110px;
+    margin-left: 20px;
+  }
+
+
+
+@media (max-width: 1450px) {
+  .card, .card1, .card2{
+    height: 135px;
+    width: 450px;
+  }
+
+  .text{
+    font-size: 16px;
+  }
+
+  .img{
+    width: 90px;
+    height: 90px;
+  }
+
+  .img1{
+   
+    width: 115px;
+    height: 100px;
+  }
+
+.h{
+  font-size: 50px;
+} 
+.h2{
+  font-size: 25px;
+}
+
+.line{
+  position: absolute;
+  width: 280px;
+  height: 400px;
+  left: 520px;
+  top: 40px;
+ }
+ 
+ .card{
+   margin-left: 80px;
+ }
+
+.card1{
+  margin-left: 130px;
+}
+
+ .card2{
+  margin-right: 90px;
+}
+
+}
+

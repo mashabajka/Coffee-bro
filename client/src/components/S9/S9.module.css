@@ -1,0 +1,135 @@
+.wrapper_content{
+  display: flex; 
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  text-align: center;
+}
+
+.top {
+  flex: 0 0 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 900;
+  color: #504036;
+  font-family: 'Inter', sans-serif;
+  /* background-color: lightseagreen; */
+}
+
+.bottom {
+  flex: 1;
+  display: flex;
+}
+
+.left,
+.right {
+  flex: 0 0 35%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left,
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: space-evenly; 
+  height: 100%; 
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.container {
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  justify-content: flex-end; 
+  width: 100%; 
+  gap: 30px;
+}
+
+.containerRight {
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  justify-content: flex-start; 
+  width: 100%; 
+  gap: 30px;
+}
+
+.container p,
+.containerRight p {
+  width: 180px; /* Убираем отступы у текста */
+}
+
+.container img,
+.containerRight img {
+  width: 30px; /* Общая ширина изображений */
+  height: auto; /* Автоматическая высота */
+}
+
+.center {
+  flex: 0 0 30%;
+}
+
+.coloredText {
+  color: #BB7D0D;
+}
+
+.imageCoffeeMashine {
+  max-width: 140%;
+  /* max-height: 60%; */
+  height: auto;
+  width: auto;
+  /* object-fit: contain;
+  position: absolute; /* Позиционируем абсолютно */
+  /* top: 50%; /* Размещаем по вертикали на 50% высоты */
+  /* left: 50%; Размещаем по горизонтали на 50% ширины */
+  transform: translate(-15%, 0%); /* Центрируем по центру родительского контейнера */
+}
+
+/* .top {
+  flex: 0 0 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 900;
+  color: #504036;
+  font-family: 'Inter', sans-serif;
+  padding-top: 50px;
+  padding-bottom: 38px;
+
+}
+
+.bottom {
+  display: flex;
+  flex: 1;
+  flex-direction: row; 
+}
+
+
+
+
+
+.left {
+  background-color: lightblue;
+}
+
+.right {
+  background-color: lightcoral;
+}
+
+.coloredText {
+  color: #BB7D0D;
+}
+
+.top p {
+  margin: 0;
+}
+ */

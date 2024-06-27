@@ -1,0 +1,232 @@
+.wrapper_content {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 30px;
+}
+
+.logo_name_wrapper {
+  display: flex;
+}
+
+.logo {
+  width: fit-content;
+}
+
+.logo img {
+  width: 150px;
+}
+
+.name {
+  width: fit-content;
+  margin-left: 30px;
+  color: #504036;
+  font-size: 60px;
+  font-weight: 1000;
+  line-height: 132.91px;
+}
+
+.slogan {
+  width: fit-content;
+  color: #bb7d0d;
+  font-size: 45px;
+  font-weight: 1000;
+  margin-top: -20px;
+}
+
+.description {
+  width: fit-content;
+  color: #272727;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.btn {
+  width: 300px;
+  height: 60px;
+  background: #bb7d0d;
+  border-radius: 100px;
+  border: 0px;
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.btn:hover {
+  color: #bb7d0d;
+  background: #ffffff;
+  border: 1px solid #bb7d0d;
+  box-shadow: inset 0 0 0 3px #ffffff;
+}
+
+.phone {
+  width: fit-content;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.link {
+  color: #ffffff;
+  position: relative;
+  margin-left: 40px;
+}
+
+.link::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: -40px;
+  width: 33px;
+  height: 33px;
+  background-image: url("icons_s1/phone.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.container2 {
+  display: flex;
+}
+
+.container2 img:first-child {
+  width: 180px;
+  height: 126px;
+  margin-top: 450px;
+}
+
+.container2 img:last-child {
+  width: 360px;
+  height: 620px;
+  align-self: center;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popupContent {
+  background-image: url("../../assets/images/backgrounds/f11-u1227-fr.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  width: 500px;
+  max-width: 80%;
+  max-height: 80%;
+  overflow: auto;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 24px;
+  color: #555;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px; /* Добавляем отступ между элементами формы */
+}
+
+.form input[type="text"],
+.form input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 100px;
+  height: 70px;
+  font-size: 20px;
+  color: #504036;
+  text-align: center;
+}
+
+.form input[type="text"]::placeholder,
+.form input[type="tel"]::placeholder {
+  color: #504036;
+  font-size: 18px;
+  text-align: center;
+}
+
+.checkboxLabel {
+  display: flex;
+  align-items: center;
+}
+
+.checkboxLabel input {
+  margin-right: 10px;
+  accent-color: white;
+  transform: scale(1.5);
+}
+
+.submitBtn {
+  padding: 10px 20px;
+  background: #bb7d0d;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 100px;
+  height: 70px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.submitBtn:hover {
+  background: #a66b0c;
+}
+
+.h2 {
+  color: #f3f1e9;
+  min-height: 37px;
+  text-align: center;
+  line-height: 36px;
+  font-size: 30px;
+  position: relative;
+  font-weight: 700;
+  padding-bottom: 25px;
+}
+
+.checkboxLabel {
+  display: flex;
+  align-items: center;
+  background-color: #504036;
+  color: white;
+  /* padding: 1px; */
+  border-radius: 5px;
+}
+
+.checkboxLabel a {
+  text-decoration: underline;
+  color: inherit; 
+}
+
+.form input[type="text"]:focus::placeholder,
+.form input[type="tel"]:focus::placeholder {
+  color: transparent; /* Делаем плейсхолдер прозрачным при фокусе */
+}

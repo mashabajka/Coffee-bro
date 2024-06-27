@@ -1,0 +1,21 @@
+
+.fixed-whatsapp-icon {
+ 
+  position: fixed;
+  bottom: 10%;
+  right: 3%;
+  z-index: 2;
+}
+
+
+.fixed-whatsapp-icon img {
+  transition: transform 0.3s ease;
+  width: 90px;
+  height: 90px;
+}
+
+.fixed-whatsapp-icon:hover img {
+  transform: scale(1.2);
+}
+
+

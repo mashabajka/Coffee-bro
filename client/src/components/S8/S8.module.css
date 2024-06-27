@@ -1,0 +1,132 @@
+
+.wrapper_content{
+  display: flex; 
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  text-align: center;
+}
+
+.block1,
+.block2,
+.block3,
+.block4,
+.block5 {
+  margin-bottom: 20px; /* Пространство между блоками */
+  flex: 1; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+
+.block1 {
+  font-size: 50px;
+  font-weight: 900;
+  color: #FFFFFF;
+  min-width: 1200px;
+}
+
+.block2 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #504036;
+  background-color: #F3F1E9;
+  /* padding-left: 150px;
+  padding-right: 150px; */
+  /* padding-top: 5px;
+  padding-bottom: 5px; */
+  /* height: auto;
+  max-height: 150px; */
+  border-radius: 10px;
+  min-width: 1200px;
+  width: 100%;
+  /* line-height: 1.5; */
+}
+
+.block3 > div {
+  text-align: center; /* Выравниваем текст внутри div по центру */
+}
+
+.block3 .image {
+  max-width: 100%; /* Максимальная ширина изображения */
+  max-height: 100%; /* Максимальная высота изображения */
+  display: block; /* Убираем лишние пробелы вокруг изображения */
+  margin: auto; /* Центрируем изображение внутри div */
+}
+
+.block3 {
+  font-size: 50px;
+  font-weight: 900;
+  color: #bb7d0e;
+  text-shadow:
+    -2px -2px 0 white,
+    2px -2px 0 white,
+    -2px 2px 0 white,
+    2px 2px 0 white;
+    display: flex;
+  flex-direction: row;
+  min-width: 1200px;
+}
+
+.block4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-width: 1200px;
+}
+
+.block4 > div {
+  font-size: 18px;
+  font-weight: 800;
+  color: #504036;
+  font-family: 'Inter', sans-serif;
+  /* width: 100px; */
+  background-color: white;
+  min-width: 360px; /* Минимальная ширина элемента */
+  max-width: 550px; /* Максимальная ширина элемента */
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: -80px;
+}
+
+.block5 {
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  background-color: #8F330B;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  height: auto;
+  border-radius: 10px;
+  min-width: 1200px;
+  width: 100%;
+  line-height: 1.5;
+}
+
+.line {
+  justify-content: space-between;
+  min-width: 900px;
+  min-height: 50px;
+  background-color: transparent;
+  border-top: 1px dashed white;
+  border-left: 1px dashed white;
+  border-right: 1px dashed white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.image {
+  width: 50%; /* Уменьшаем изображение на 20% */
+  height: auto; /* Автоматически подстраиваем высоту */
+}
+
+@media (max-width: 1450px) {
+  .block5{
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,270 @@
+
+.background{
+  background-image: url('../../assets/images/background/13.jpg');
+  background-size:cover;
+  width: 1920px;
+  height: 1080px;
+  max-width: 100vw;
+  max-height: 100vh;
+  min-height: 850px;
+  min-width: 1250px
+}
+.wrapper{
+  width: 1400px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex; 
+  padding-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 600px; 
+  height: 80%;
+}
+
+.top1 {
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content: space-around;
+  gap: 80px; /* Расстояние между элементами */
+  margin-bottom: 40px;
+}
+.top5 {
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content: space-between;
+  gap: 90px; /* Расстояние между элементами */
+ 
+}
+.coloredText {
+  color: #BB7D0D;
+}
+
+.top3 {
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 1;
+  color: #FFFFFF;
+}
+
+.top6 {
+  font-size: 60px;
+  font-weight: 900;
+  color: #BB7D0D;
+  line-height: 1;
+}
+
+.top4_1, .top4_2, .top4_3, .top4_4 {
+  width: 566px;
+  height: 176px;
+  border-radius: 10px;
+  color:#504036;
+  background: #F3F1E9;
+  text-align: center;
+  margin: 20px;
+  flex-direction: column;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.top7{
+  font-size: 32px;
+  font-weight: 800;
+  color: #504036;
+
+}
+
+.top8{
+  font-size: 27px;
+  font-weight: 500;
+  color: #504036;
+}
+
+.star1 {
+  display: none;
+}
+.star2 {
+  display: none;
+}
+
+.star3 {
+  display: none;
+}
+.star4 {
+  display: none;
+}
+
+.apparate {
+  display: none;
+}
+
+.beans {
+  display: none;
+}
+
+@media (max-width: 1450px) {
+  .background {
+    background-image: url("../../assets/images/backgrounds/11.png");
+    width: 100vw;
+    height: 100vh;
+    min-height: 720px;
+    max-height: 750px;
+
+  }
+
+  .wrapper {
+    position: relative;
+    width: 1180px;
+    min-width: 1100px;
+
+  }
+
+  .beans {
+    display: block;
+    position: absolute;
+    width: fit-content;
+    height: 620px;
+    z-index: 0;
+  }
+  .apparate {
+    display: block;
+    position: absolute;
+    width: 400px;
+    height: 620px;
+    z-index: 1;
+  }
+
+  .top {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0px;
+    z-index: 2;
+  }
+
+  .top1 {
+    margin-bottom: 0px;
+    position: relative;
+    height: 100%;
+    width: 50%;
+  }
+
+  .top1 .top4_1 {
+    top: 200px;
+    position: absolute;
+    left: 0px;
+  }
+  .top1 .top4_2 {
+    bottom: 70px;
+    position: absolute;
+    left: 0px;
+  }
+
+  .top3 {
+    position: absolute;
+    font-size: 60px;
+    font-weight: 900;
+    color: #ffffff;
+    top: 0px;
+    left: 0px;
+  }
+
+  .top4_1, .top4_2, .top4_3, .top4_4 {
+    position: absolute;
+    width: 400px;
+    height: 125px;
+    margin: 0;
+  }
+
+  .top5 {
+    position: relative;
+    height: 100%;
+    width: 50%;
+  }
+
+  .top5 .top4_3 {
+    position: absolute;
+    top: 200px;
+    right: 0px;
+  }
+  .top5 .top4_4 {
+    position: absolute;
+    bottom: 70px;
+    right: 0px;
+  }
+
+  .top6 {
+    top: 0px;
+    position: absolute;
+    font-size: 60px;
+    right: 0px;
+  }
+
+  .top7 {
+    font-size: 20px;
+    font-weight: 800;
+    color: #504036;
+  }
+
+  .top8 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #504036;
+  }
+
+  .star1 {
+    position: absolute;
+    display: block;
+    left: 330px;
+    z-index: -1;
+    top: 150px;
+  }
+
+  .star2 {
+    position: absolute;
+    display: block;
+    left: 380px;
+    z-index: -1;
+    bottom: 200px;
+  }
+
+  .star3 {
+    position: absolute;
+    display: block;
+    right: 400px;
+    z-index: -1;
+    top: 250px;
+  }
+  .star4 {
+    position: absolute;
+    display: block;
+    right: 400px;
+    z-index: -1;
+    bottom: 120px;
+  }
+
+  .star4 img {
+    height: 200px;
+
+  }
+  .star3 img{
+    height: 30px;
+  }
+
+  .star2 img {
+    height: 20px;
+  }
+
+  .star1 img {
+    height: 160px;
+  }
+}

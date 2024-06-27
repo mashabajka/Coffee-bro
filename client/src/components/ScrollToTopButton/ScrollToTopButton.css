@@ -1,0 +1,23 @@
+.scroll-to-top-button {
+  position: fixed;
+  bottom: 70%;
+  right: 5%;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  cursor: pointer;
+  z-index: 1000;
+  font-size: 30px; /* Увеличенный размер шрифта для стрелки */
+}
+
+.scroll-to-top-button.visible {
+  opacity: 1;
+}

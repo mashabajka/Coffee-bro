@@ -1,0 +1,147 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    margin-left: 10px;
+    margin-right: 10px;
+    border: none;
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    background: #8F330B;
+    box-shadow: 0 5px 0 #BB7D0D;
+    margin-bottom: 20px;
+  }
+  
+  .btn:hover {
+    background: #BB7D0D;
+    box-shadow: none;
+    position: relative;
+    top: 5px;
+  }
+
+  .num{
+    font-size: 35px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 15px;
+  }
+
+  .btn1 {
+    border: none;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    background: #8F330B;
+    box-shadow: 0 5px 0 #BB7D0D;
+    margin-bottom: 20px;
+  }
+  
+  .btn1:hover {
+    background: #BB7D0D;
+    box-shadow: none;
+    position: relative;
+    top: 5px;
+  }
+
+  .wrap {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0; top: 0; right: 0; bottom: 0;
+  
+  }
+  
+  .modal{
+      position: absolute;
+      left: 50%;
+      top: 55%;
+      display: block;
+      width: 40%;
+      height: 80%;
+      transform: translate(-50%, -50%);
+      display: flex !important;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      background: #fffffff4;
+      border-radius: 25px;
+      border: thick double rgba(133, 133, 133, 0.87);
+      
+  }
+  
+  
+  .modalClose {
+      font-family: var(--font-regular);
+      position: absolute;
+      right: 1%;
+      top: 1%;
+      width: 70px ;
+      height: 70px;
+      cursor: pointer;
+      border: 1px ;
+      background: none;
+  
+  }
+  
+  
+  .h4{
+    width: 80%;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .h5{
+    width: 90%;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .img1{
+    width: 30%;
+    /* height: 53%; */
+  }
+
+  .sum {
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .sum1 {
+    font-size: 25px;
+    font-weight: 700;
+    color: black !important;
+  }
+.sum2 {
+  margin-left: 10px;
+  font-size: 25px;
+  font-weight: 700;
+  color: rgb(158, 26, 26);
+}
+
+.sum3 {
+  margin-left: 10px;
+  font-size: 25px;
+  font-weight: 700;
+  color: black;
+}
+  
+  .sale{
+    display: flex;
+  
+  }
+  .img1{
+    height: 45%;
+    width: auto;
+
+  }

@@ -1,0 +1,75 @@
+.Onecard{
+width: 100%;
+}
+
+.btn {
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    background: white;
+    box-shadow: 0 5px 0 white;
+    margin-bottom: 20px;
+  }
+  
+  .btn:hover {
+    background: #d51c1c;
+    box-shadow: none;
+    position: relative;
+    /* top: 5px; */
+  }
+
+  .delete{
+
+    width: 40px;
+    height: 40px;
+  }
+
+  .img{
+    width: 9%;
+  }
+
+  
+.card{
+  /* background-color: #F3F1E9; */
+  /* border-radius: 10px; */
+  /* border: 3px solid #bb7e0df7; */
+  /* margin: 40px; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.h1{
+  width: 30%;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.sale{
+  color: #d51c1c;
+}
+
+
+.btn1 {
+  border: none;
+  width: 250px;
+  height: 50px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  background: #1b6707;
+  box-shadow: 0 5px 0 #0fa70a;
+  margin-bottom: 20px;
+}
+
+.btn1:hover {
+  background: #0fa70a;
+  box-shadow: none;
+  position: relative;
+  top: 5px;
+}
